@@ -28,25 +28,31 @@ h2 {
   gap: 1rem;
   justify-content: space-between;
   padding: 2rem;
-}
-
-.recent {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+  max-width: 402vh;
 }
 
 .recentDiv {
   width: 60%;
 }
 
-.score {
-  width: 30%;
+.recent {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 2rem;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 2rem;
+}
+
+.refreshBtn {
+  border: 2px solid black;
+  box-shadow: 2px 1px 1px black;
+  width: 5rem;
+  height: 2rem;
+  font-size: 1rem;
+  margin-left: 11.5rem;
+}
+
+.recentScore {
+  /* padding-left: -6rem; */
 }
 
 #scoreDiv {
@@ -61,12 +67,8 @@ h2 {
   padding: 0.3rem;
 }
 
-button {
-  border: 2px solid black;
-  box-shadow: 2px 1px 1px black;
-  width: 5rem;
-  height: 2rem;
-  font-size: 1rem;
+.score {
+  width: 30%;
 }
 
 #nameInput,
@@ -76,4 +78,20 @@ button {
   padding: 0.2rem;
   font-size: 1rem;
   border: 1px solid black;
+  margin-top: 1rem;
+}
+
+.submitBtnContainer {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.submitBtn {
+  border: 2px solid black;
+  box-shadow: 2px 1px 1px black;
+  width: 5rem;
+  height: 2rem;
+  font-size: 1rem;
 }

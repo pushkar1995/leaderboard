@@ -11,7 +11,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 
@@ -25,16 +24,12 @@ The leaderboard website displays scores submitted by different players. It also 
   <summary>Page was built using basic HTML and CSS, ES6 modules JavaScript</summary>
 </details>
 
-
 ### Key Features <a name="key-features"></a>
-
 
 
 - **Project has ES6 modules**
 - **Await and async has been used for API's**
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

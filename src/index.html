@@ -14,8 +14,8 @@
         <div class="container2">
             <div class="recentDiv">
                 <div class='recent'>
-                    <h2>Recent score</h2>
-                    <button>Refresh</button>
+                    <h2 class="recentScore">Recent score</h2>
+                    <button class="refreshBtn">Refresh</button>
                 </div>
                 <div id="scoreDiv">
                     <ul id="ul"></ul>
@@ -25,7 +25,9 @@
                 <h2>Add your score</h2>
                 <input type="text" id="nameInput" placeholder="Your name">
                 <input type="text" id="scoreInput" placeholder="Your score">
-                <button id="submitBtn" type="submit">Submit</button>
+                <div class="submitBtnContainer">
+                    <button id="submitBtn" class="submitBtn" type="submit">Submit</button>
+                </div>
             </div>
         </div>
 
