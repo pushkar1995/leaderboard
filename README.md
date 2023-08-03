@@ -5,7 +5,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -36,13 +35,6 @@ The leaderboard website displays scores submitted by different players. It also 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-
-- [Click me to view deployed project!](project has not been deployed yet)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
