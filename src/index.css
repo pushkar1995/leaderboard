@@ -51,10 +51,6 @@ h2 {
   margin-left: 11.5rem;
 }
 
-.recentScore {
-  /* padding-left: -6rem; */
-}
-
 #scoreDiv {
   max-height: 42vh;
   overflow: auto;
