@@ -10,27 +10,30 @@
 <body>
 
     <section class="container">
-        <h1>Leaderboard</h1>
+        <h1 id="heading">LEADERBOARD</h1>
         <div class="container2">
             <div class="recentDiv">
                 <div class='recent'>
-                    <h2 class="recentScore">Recent score</h2>
-                    <button class="refreshBtn">Refresh</button>
+                    <h2>Recent score</h2>
+                    <button id="refreshBtn">Refresh</button>
                 </div>
                 <div id="scoreDiv">
                     <ul id="ul"></ul>
                 </div>
             </div>
             <div class="score">
-                <h2>Add your score</h2>
-                <input type="text" id="nameInput" placeholder="Your name">
-                <input type="text" id="scoreInput" placeholder="Your score">
+                <div class="addscore-heading-container">
+                    <h2>Add your score</h2>
+                </div>
+                <div class="inputsContainer">
+                    <input type="text" id="nameInput" placeholder="Your name">
+                    <input type="text" id="scoreInput" required placeholder="Your score">
+                </div>
                 <div class="submitBtnContainer">
-                    <button id="submitBtn" class="submitBtn" type="submit">Submit</button>
+                    <button id="submitBtn" type="submit">Submit</button>
                 </div>
             </div>
         </div>
-
     </section>
 
 

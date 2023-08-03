@@ -8,19 +8,23 @@ body {
 .container {
   border: 2px solid #9d9c9c;
   background: linear-gradient(to bottom, #fff, #cac7c7);
-  width: 70%;
-  margin: 5rem;
+  box-shadow: 1px 1px 40px #2a2929;
+  width: 85%;
+  margin: 5%;
   padding: 1rem;
-  height: 75vh;
+  height: 78vh;
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
+  margin: 3rem;
   margin-left: 5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .container2 {
@@ -28,32 +32,24 @@ h2 {
   gap: 1rem;
   justify-content: space-between;
   padding: 2rem;
-  max-width: 402vh;
-}
-
-.recentDiv {
-  width: 60%;
+  height: 50vh;
 }
 
 .recent {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  margin-left: 2rem;
+  justify-content: space-between;
 }
 
-.refreshBtn {
-  border: 2px solid black;
-  box-shadow: 2px 1px 1px black;
-  width: 5rem;
-  height: 2rem;
-  font-size: 1rem;
-  margin-left: 11.5rem;
+.recentDiv {
+  width: 58%;
 }
 
-#scoreDiv {
-  max-height: 42vh;
+ul {
+  padding: 0;
+  max-height: 40vh;
   overflow: auto;
+  box-shadow: 1px 1px 10px #515050;
 }
 
 .listItem {
@@ -64,30 +60,57 @@ h2 {
 }
 
 .score {
-  width: 30%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 50vh;
+  margin-left: 3rem;
+}
+
+.addscore-heading-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 45%;
+}
+
+.inputsContainer {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.submitBtnContainer {
+  display: flex;
+  align-self: flex-end;
+}
+
+button {
+  border: 2px solid rgb(47, 47, 47);
+  width: 5rem;
+  height: 2rem;
+  font-size: 1rem;
+  color: #2a2929;
+  border-radius: 10%;
+}
+
+button:hover {
+  box-shadow: 2px 1px 1px rgb(47, 47, 47);
+}
+
+button:active {
+  background: #1d1d1d;
+  color: rgb(205, 205, 205);
 }
 
 #nameInput,
 #scoreInput {
-  width: 15rem;
+  width: 22vw;
   height: 1.5rem;
   padding: 0.2rem;
   font-size: 1rem;
   border: 1px solid black;
+  font-style: italic;
   margin-top: 1rem;
-}
-
-.submitBtnContainer {
-  margin-top: 1rem;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
-
-.submitBtn {
-  border: 2px solid black;
-  box-shadow: 2px 1px 1px black;
-  width: 5rem;
-  height: 2rem;
-  font-size: 1rem;
 }
