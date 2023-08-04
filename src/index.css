@@ -114,3 +114,8 @@ button:active {
   font-style: italic;
   margin-top: 1rem;
 }
+
+#scoreError {
+  color: red;
+  display: none;
+}
