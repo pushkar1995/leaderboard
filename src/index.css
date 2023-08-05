@@ -119,3 +119,67 @@ button:active {
   color: red;
   display: none;
 }
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+  border-right: 1px solid #7b7b7b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #e2e0e0, #706f6f);
+  border-right: 1px solid gray;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+
+  .container {
+    border: 2px solid #9d9c9c;
+    background: linear-gradient(to bottom, #f0f0f0, #9d9c9c);
+    box-shadow: 1px 1px 40px #2a2929;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  h1 {
+    margin-top: 6.5rem;
+  }
+
+  .bigger {
+    margin-top: 16rem;
+  }
+
+  .container2 {
+    height: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .recentDiv {
+    width: 80vw;
+  }
+
+  .score {
+    width: 80vw;
+  }
+
+  #nameInput,
+  #scoreInput {
+    width: 80vw;
+  }
+}
