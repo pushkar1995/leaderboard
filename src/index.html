@@ -27,7 +27,8 @@
                 </div>
                 <div class="inputsContainer">
                     <input type="text" id="nameInput" placeholder="Your name">
-                    <input type="text" id="scoreInput" required placeholder="Your score">
+                    <input type="text" id="scoreInput" pattern="[0-9]*" required placeholder="Your score">
+                    <span id="scoreError">Please enter a valid number</span>
                 </div>
                 <div class="submitBtnContainer">
                     <button id="submitBtn" type="submit">Submit</button>
